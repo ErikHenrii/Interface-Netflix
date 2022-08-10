@@ -1,6 +1,7 @@
 :root{
-    --vermelho: #e50914;
-    --preto: #141414;
+    --vermelho: #0ebeeb;
+    --preto: #070606e8;
+    
 
 }
 
@@ -9,9 +10,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*elemento Base*/
 body{
     background: var(--preto);
     font-family: 'Times New Roman', Times, serif;
+    color: #fff;
 }
 
 header .container{
@@ -36,4 +39,28 @@ header nav a{
 header nav a:hover{
     color: #fff;
 
+}
+
+/*Filme Principal*/
+
+.filme-principal{
+    font-size: 16px;
+    background: url(/img/chosen.jpg);
+    
+    height: 550px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 40px;
+    width: 50%;
+}
+
+.titulo{
+    font-size: 70px;
 }
