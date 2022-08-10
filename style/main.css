@@ -1,5 +1,5 @@
 :root{
-    --vermelho: #0ebeeb;
+    --vermelho: #f01818;
     --preto: #070606e8;
     
 
@@ -63,4 +63,5 @@ header nav a:hover{
 
 .titulo{
     font-size: 70px;
+    color: rgb(28, 173, 149);
 }
