@@ -1,6 +1,6 @@
 :root{
     --vermelho: #06fafa;
-    --preto: #000000fa;
+    --preto: #141414cc;
     
 
 }
@@ -45,9 +45,9 @@ header nav a:hover{
 
 .filme-principal{
     font-size: 16px;
-    background: url();
+    background: url(/img/Chosen.jpg);
     
-    height: 550px;
+    height: 700px;
     background-size: cover;
 
     display: flex;
