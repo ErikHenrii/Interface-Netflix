@@ -76,6 +76,7 @@ header nav a:hover{
     padding: 15px 30px;
     font-size: 12px;
     transition: 1s ease all;
+    cursor: pointer;
 
 }
 
@@ -83,3 +84,16 @@ header nav a:hover{
     background-color: #fff;
     color: black;
 }
+
+.botao i{
+    margin-right: 5px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
