@@ -1,6 +1,6 @@
 :root{
     --Logo: #2ffa06;
-    --Fundo: #292622de;
+    --Fundo: #050300fa;
     
 
 }
@@ -26,7 +26,7 @@ justify-content: space-between;
 header .logo{
     margin-left: 5px;
     color: var(--Logo);
-    font-family: 'Arial Black';
+    font-family: cursive;
     font-size: 40px;
 }
 
@@ -45,7 +45,7 @@ header nav a:hover{
 
 .filme-principal{
     font-size: 16px;
-    background: url(/img/chosen.jpg);
+    background: url(/img/chosen2.jpg);
     
     height: 600px;
     background-size: cover;
@@ -57,15 +57,16 @@ header nav a:hover{
 }
 
 .filme-principal .descricao{
-   margin-top: 15px;
+    margin-top: 25px;
     margin-bottom: 40px;
-    width: 50%;
+    width: 60%;
+    color: rgb(243, 245, 241); ;
 }
 
 .titulo{
     margin-top: 15%;
     font-size: 70px;
-    color: rgb(28, 173, 149);
+    color: rgb(111, 124, 119);
 }
 
 .botao{
